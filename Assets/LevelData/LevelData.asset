@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: LevelData
   m_EditorClassIdentifier: 
   level: 1
-  rows: 6
-  columns: 6
-  spawnableTileType: 0000000001000000040000000600000007000000
+  width: 6
+  height: 6
+  fruitCount: 3
