@@ -10,5 +10,8 @@ public class TileObj : MonoBehaviour
     public bool isBlank;
     public int x;
     public int y;
-
+    public void SetData(Sprite content)
+    {
+        tileImg.sprite = content;
+    }
 }
