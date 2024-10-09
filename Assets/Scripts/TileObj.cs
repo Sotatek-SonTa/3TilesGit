@@ -2,27 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.U2D;
 
 public class TileObj : MonoBehaviour
 {
     [Header("Atributter")]
     public Image tileImg;
-    public bool isBlank;
+    public Image background;
+   
+   
     public TileType tileType;
+    public bool isBlocked;
     public int x;
     public int y;
-
-    void Start()
+   
+    public void SetBlocked()
     {
-        
+        isBlocked = true;
+        tileImg.enabled = false;
+        background.enabled = false;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }
+
 public enum TileType
 {
     Apple,

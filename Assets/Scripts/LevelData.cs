@@ -5,8 +5,6 @@ using UnityEngine;
 public class LevelData : ScriptableObject
 {
     public int level;
-    public int rows;
-    public int columns;
-    public int fruitCount;
+    public List<Grid> grids;
     public TileType[] spawnableTileType;
 }

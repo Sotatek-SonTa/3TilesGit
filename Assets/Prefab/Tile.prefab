@@ -135,8 +135,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileImg: {fileID: 1980895853315300554}
-  isBlank: 0
+  background: {fileID: 7892118980168406606}
+  spriteAtlas: {fileID: 100100200, guid: bb975a997629a4b4dba1e337fb521a62, type: 3}
   tileType: 0
+  isBlocked: 0
   x: 0
   y: 0
 --- !u!1 &8147679189352237895
